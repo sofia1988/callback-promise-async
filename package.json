@@ -1,0 +1,21 @@
+{
+  "name": "asincronismojs",
+  "version": "1.0.0",
+  "description": "asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node callback/main.js",
+    "start:challenge": "node callback/challenge.js",
+    "promise":"node promise/index.js",
+    "promise:challenge":"node promise/challenge.js",
+    "async":"node async/index.js",
+    "async:challenge":"node async/challenge.js"
+
+  },
+  "author": "sofia",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
